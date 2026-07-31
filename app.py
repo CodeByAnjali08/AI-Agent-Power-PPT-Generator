@@ -102,9 +102,7 @@ if all(ALL_API)and user_query:
 
   agent=create_agent(
       model=model,
-      tools=[search_latest_info,
-             generate_image
-  ]
+      tools=[search_latest_info, generate_image]
   )
   #===========DISPLAY AGENT============
   #st.sidebar.Image(agent)
