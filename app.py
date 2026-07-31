@@ -40,7 +40,7 @@ else:
    
 #===============FRONTEND===============
 st.title("AI-AGENT-POWERED BY PPT GENERATOR")
-user-query=st.text_area("write your ppt topic or prompt")
+user_query=st.text_area("write your ppt topic or prompt")
 #===============ASSESTs=================
 #tool 1
 def search_latest_info(query):
@@ -66,7 +66,7 @@ def generate_image(img_prompt):
     f.write(content)
     
   from PIL import Image
-  return Image.open("Image.jpeg")
+  return url
 
 #WITH TABS
 tab1,tab2,tab3=st.tabs(["GENERATE IMAGE",
